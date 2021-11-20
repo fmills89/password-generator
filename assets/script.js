@@ -60,7 +60,7 @@ function generatePassword() {
      
 
     for (var i = 0; i < request; i++){
-      var loopRand = Math.floor(Math.random()*(password.length-1))
+      var loopRand = [Math.floor(Math.random()*(password.length-1))];
       password.push(loopRand);
       console.log(password);
     }
